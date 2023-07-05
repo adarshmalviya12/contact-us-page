@@ -3,7 +3,6 @@
 * {
  margin: 0;
  padding: 0;
- box-sizing: border-box;
 }
 
 body {
@@ -18,5 +17,5 @@ body {
 .main_container {
  display: flex;
  flex-direction: column;
- height: calc(100vh - 72px);
+ padding-top: 30px;
 }

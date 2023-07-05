@@ -5,13 +5,13 @@ import Navigation from "./components/Navigation/Navigation";
 
 function App() {
  return (
-  <>
+  <div className="main_body">
    <Navigation />
    <main className="main_container">
     <ContactHeader />
     <ContactForm />
    </main>
-  </>
+  </div>
  );
 }
 
